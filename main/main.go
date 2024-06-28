@@ -23,7 +23,7 @@ func UrlHandler(w http.ResponseWriter, r *http.Request) {
 	fmt.Println(urlPath)
 	urls := []URL{
 		{OriginalURL: "https://www.google.com", ShortURL: "/test1"},
-		{OriginalURL: "https://www.dev.io", ShortURL: "/test2"},
+		{OriginalURL: "https://www.bing.com", ShortURL: "/test2"},
 	}
 
 	for _, url := range urls {
